@@ -27,7 +27,7 @@ Recording game status
 Place files input for the entering wanted coordinates, check who is a win and other functions’ files  
 The output file will show the game board with marks which are settled by given coordinates  
 * Program codes in multiple files  
-Two .cpp files and a header file is made  
+Two .cpp files and a header file is made (main.cpp / gamefunc.cpp / gamefunc.h) 
 * Proper indentation and naming styles & In-code documentation  
 All presented inside the code files  
 Further information will be written on the files by comment  
@@ -35,8 +35,8 @@ Further information will be written on the files by comment
 **How to run**  
 * Put all files in same directory then open cmd  
 * Type the given commands consequently.  
-g++ -pedantic-errors -std=c+11 main.cpp gamefunc.cpp -o main  
-./ main  
+g++ main.cpp gamefunc.cpp -o game
+./game
 
 **Demonstration Video**  
 * Show instruction before the game.  
@@ -44,3 +44,10 @@ g++ -pedantic-errors -std=c+11 main.cpp gamefunc.cpp -o main
 * Play 5 games.  
 * Select the winner by checking the accumulated points through 5 games.  
 * Existing program.  
+* Show output.txt file to show the saved game result.
+
+**Things to watch out**  
+* This game will not give out the same output for each game.
+* Hence, 'output.txt' file will be used as a file to save the game record. 
+* It will changed continuously after the player plays game.
+* On this repository, 'output.txt' file contain the game result of recorded demonstration.
