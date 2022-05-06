@@ -35,7 +35,7 @@ Further information will be written on the files by comment
 **How to run**  
 * Put all files in same directory then open cmd  
 * Type the given commands consequently.  
-g++ main.cpp gamefunc.cpp -o game
+g++ main.cpp gamefunc.cpp -o game  
 ./game
 
 **Demonstration Video**  
