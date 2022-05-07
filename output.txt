@@ -8,4 +8,4 @@ Round: 4
 Computer wins!
 Round: 5
 Minseo wins!
-Total score is Minseo: 3 Computer: 1
+Total score is Minseo: 3 Computer: 1 
