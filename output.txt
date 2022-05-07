@@ -1,0 +1,11 @@
+Round: 1
+Nobody wins!
+Round: 2
+Minseo wins!
+Round: 3
+Minseo wins!
+Round: 4
+Computer wins!
+Round: 5
+Minseo wins!
+Total score is Minseo: 3 Computer: 1

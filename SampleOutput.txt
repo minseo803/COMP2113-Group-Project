@@ -1,0 +1,301 @@
+msyoon@academy21:~/GroupProject$ ./main
+Welcome!
+
+Tic Tac Toe Game
+
+Game Instruction:
+1. Type your name.
+2. The board wil be displayed. 
+3. Type the coordinate you want.
+// For example, if you want coordinate (0,0), then type "0 0"
+4. The game board (3x3) on the screen with 'X'.
+5. The other board will be come out directly with 'O', which is played by computer.
+6. It will ask to type coordinate again.
+7. This will be repeated several time until someone win.
+8. The first player who gets 3 of her marks in a row (up, down, across, or diagonally) is the winner.
+9. The winner will get one point for one time of win.
+10. New round will start again. 
+11. Replay this game 5 times and the final winner will be the player who gets more points during the game.
+12. You may check the result for each round and whole game in output.txt file.
+
+Type your name: 
+Minseo
+Round: 1
+Minseo: 0 Computer: 0
+    0 1 2
+   ------
+0 |      
+1 |      
+2 |      
+Turn:Minseo (column, row):0 0
+    0 1 2
+   ------
+0 | X    
+1 |      
+2 |      
+
+Turn:Computer 
+    0 1 2
+   ------
+0 | X    
+1 |     O
+2 |      
+Turn:Minseo (column, row):0 2
+    0 1 2
+   ------
+0 | X   X
+1 |     O
+2 |      
+
+Turn:Computer 
+    0 1 2
+   ------
+0 | X   X
+1 |     O
+2 | O    
+Turn:Minseo (column, row):1 1
+    0 1 2
+   ------
+0 | X   X
+1 |   X O
+2 | O    
+
+Turn:Computer 
+    0 1 2
+   ------
+0 | X   X
+1 |   X O
+2 | O   O
+Turn:Minseo (column, row):1 0
+    0 1 2
+   ------
+0 | X   X
+1 | X X O
+2 | O   O
+
+Turn:Computer 
+    0 1 2
+   ------
+0 | X O X
+1 | X X O
+2 | O   O
+Turn:Minseo (column, row):2 1
+Nobody wins!
+
+Round: 2
+Minseo: 0 Computer: 0
+    0 1 2
+   ------
+0 |      
+1 |      
+2 |      
+
+Turn:Computer 
+    0 1 2
+   ------
+0 |      
+1 |     O
+2 |      
+Turn:Minseo (column, row):1 1
+    0 1 2
+   ------
+0 |      
+1 |   X O
+2 |      
+
+Turn:Computer 
+    0 1 2
+   ------
+0 |     O
+1 |   X O
+2 |      
+Turn:Minseo (column, row):0 1
+    0 1 2
+   ------
+0 |   X O
+1 |   X O
+2 |      
+
+Turn:Computer 
+    0 1 2
+   ------
+0 |   X O
+1 | O X O
+2 |      
+Turn:Minseo (column, row):2 1
+Minseo wins!
+
+Round: 3
+Minseo: 1 Computer: 0
+    0 1 2
+   ------
+0 |      
+1 |      
+2 |      
+Turn:Minseo (column, row):0 2
+    0 1 2
+   ------
+0 |     X
+1 |      
+2 |      
+
+Turn:Computer 
+    0 1 2
+   ------
+0 |     X
+1 |      
+2 |     O
+Turn:Minseo (column, row):1 2
+    0 1 2
+   ------
+0 |     X
+1 |     X
+2 |     O
+
+Turn:Computer 
+    0 1 2
+   ------
+0 | O   X
+1 |     X
+2 |     O
+Turn:Minseo (column, row):0 1
+    0 1 2
+   ------
+0 | O X X
+1 |     X
+2 |     O
+
+Turn:Computer 
+    0 1 2
+   ------
+0 | O X X
+1 |     X
+2 |   O O
+Turn:Minseo (column, row):2 0
+    0 1 2
+   ------
+0 | O X X
+1 |     X
+2 | X O O
+
+Turn:Computer 
+    0 1 2
+   ------
+0 | O X X
+1 | O   X
+2 | X O O
+Turn:Minseo (column, row):1 1
+Minseo wins!
+
+Round: 4
+Minseo: 2 Computer: 0
+    0 1 2
+   ------
+0 |      
+1 |      
+2 |      
+
+Turn:Computer 
+    0 1 2
+   ------
+0 |      
+1 |      
+2 |     O
+Turn:Minseo (column, row):2 0
+    0 1 2
+   ------
+0 |      
+1 |      
+2 | X   O
+
+Turn:Computer 
+    0 1 2
+   ------
+0 |      
+1 | O    
+2 | X   O
+Turn:Minseo (column, row):0 2
+    0 1 2
+   ------
+0 |     X
+1 | O    
+2 | X   O
+
+Turn:Computer 
+    0 1 2
+   ------
+0 | O   X
+1 | O    
+2 | X   O
+Turn:Minseo (column, row):0 1
+    0 1 2
+   ------
+0 | O X X
+1 | O    
+2 | X   O
+
+Turn:Computer 
+    0 1 2
+   ------
+0 | O X X
+1 | O    
+2 | X O O
+Turn:Minseo (column, row):1 2
+    0 1 2
+   ------
+0 | O X X
+1 | O   X
+2 | X O O
+
+Turn:Computer 
+Computer wins!
+Round: 5
+Minseo: 2 Computer: 1
+    0 1 2
+   ------
+0 |      
+1 |      
+2 |      
+Turn:Minseo (column, row):0 0
+    0 1 2
+   ------
+0 | X    
+1 |      
+2 |      
+
+Turn:Computer 
+    0 1 2
+   ------
+0 | X O  
+1 |      
+2 |      
+Turn:Minseo (column, row):1 1
+    0 1 2
+   ------
+0 | X O  
+1 |   X  
+2 |      
+
+Turn:Computer 
+    0 1 2
+   ------
+0 | X O  
+1 |   X  
+2 |     O
+Turn:Minseo (column, row):2 0
+    0 1 2
+   ------
+0 | X O  
+1 |   X  
+2 | X   O
+
+Turn:Computer 
+    0 1 2
+   ------
+0 | X O  
+1 |   X O
+2 | X   O
+Turn:Minseo (column, row):1 0
+Minseo wins!
+
+Total score is Minseo: 3 Computer: 1
