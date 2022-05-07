@@ -9,7 +9,7 @@
 #define WIDTH 3
 #define HEIGHT 3
 
-using namespace std;
+using namespace std; 
 
 int winCheck(int sum)
 {
