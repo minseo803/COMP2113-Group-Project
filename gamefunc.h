@@ -23,4 +23,4 @@ int randomComp(vector <vector<int>>& board);
 
 void display(vector <vector<int>>& b);
 
-#endif
+#endif 
