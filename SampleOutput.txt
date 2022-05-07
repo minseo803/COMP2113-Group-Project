@@ -298,4 +298,4 @@ Turn:Computer
 Turn:Minseo (column, row):1 0
 Minseo wins!
 
-Total score is Minseo: 3 Computer: 1
+Total score is Minseo: 3 Computer: 1 
